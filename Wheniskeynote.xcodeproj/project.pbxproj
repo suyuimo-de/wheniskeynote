@@ -11,7 +11,6 @@
 		CE9FD98A224A8DCF00CB7517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FD989224A8DCF00CB7517 /* ViewController.swift */; };
 		CE9FD98D224A8DCF00CB7517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9FD98B224A8DCF00CB7517 /* Main.storyboard */; };
 		CE9FD98F224A8DD100CB7517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9FD98E224A8DD100CB7517 /* Assets.xcassets */; };
-		CE9FD992224A8DD100CB7517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9FD990224A8DD100CB7517 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		CE9FD989224A8DCF00CB7517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE9FD98C224A8DCF00CB7517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE9FD98E224A8DD100CB7517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE9FD991224A8DD100CB7517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9FD993224A8DD100CB7517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				CE9FD989224A8DCF00CB7517 /* ViewController.swift */,
 				CE9FD98B224A8DCF00CB7517 /* Main.storyboard */,
 				CE9FD98E224A8DD100CB7517 /* Assets.xcassets */,
-				CE9FD990224A8DD100CB7517 /* LaunchScreen.storyboard */,
 				CE9FD993224A8DD100CB7517 /* Info.plist */,
 			);
 			path = Wheniskeynote;
@@ -122,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9FD992224A8DD100CB7517 /* LaunchScreen.storyboard in Resources */,
 				CE9FD98F224A8DD100CB7517 /* Assets.xcassets in Resources */,
 				CE9FD98D224A8DCF00CB7517 /* Main.storyboard in Resources */,
 			);
@@ -149,14 +145,6 @@
 				CE9FD98C224A8DCF00CB7517 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE9FD990224A8DD100CB7517 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE9FD991224A8DD100CB7517 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,14 +273,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YVZGK7AE8C;
 				INFOPLIST_FILE = Wheniskeynote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = suyuimo.de.Wheniskeynote;
+				PRODUCT_BUNDLE_IDENTIFIER = de.suyuimo.Wheniskeynote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,14 +292,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YVZGK7AE8C;
 				INFOPLIST_FILE = Wheniskeynote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = suyuimo.de.Wheniskeynote;
+				PRODUCT_BUNDLE_IDENTIFIER = de.suyuimo.Wheniskeynote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
